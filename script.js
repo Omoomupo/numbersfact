@@ -4,7 +4,7 @@ let factText = document.querySelector('#factText');
 
 const getFact = () => {
     let number = numberInput.value;
-    console.log(number);1
+    
     factField.style.display = 'block';
 
     fetch('http://numbersapi.com/' + number)
