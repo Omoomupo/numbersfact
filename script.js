@@ -7,7 +7,7 @@ const getFact = () => {
     
     factField.style.display = 'block';
 
-    fetch('https://numbersapi.com/' + number)
+    fetch('http://numbersapi.com/' + number)
         .then(response => response.text())
         .then(data => {
             factText.textContent = data;
