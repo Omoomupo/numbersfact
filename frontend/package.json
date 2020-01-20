@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": ">This is a web app which displays a random fact based on user's input.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wale-bant/numbersfact.git"
+  },
+  "author": "Olawale Ashiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wale-bant/numbersfact/issues"
+  },
+  "homepage": "."
+}
