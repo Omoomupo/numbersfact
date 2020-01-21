@@ -7,7 +7,7 @@ const getFact = () => {
     
     factField.style.display = 'block';
 
-    fetch('https://polar-inlet-20993.herokuapp.com/' + number)
+    fetch('https://polar-inlet-20993.herokuapp.com' + number)
         .then(response => response.text())
         .then(data => {
             factText.textContent = data;
